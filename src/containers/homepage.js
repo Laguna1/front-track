@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => (
   <div className="home-page">
-    Home Page
+    Track your Activities
   </div>
 );
 
