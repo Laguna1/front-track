@@ -9,6 +9,7 @@ import Header from './components/header';
 import './App.css';
 import ActivItem from './containers/activItem';
 import Activ from './containers/activ';
+import Progress from './containers/progress';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
         <Route path="/activItem" component={ActivItem} />
+        <Route path="/progress" component={Progress} />
         <Route path="/activ/:activId" component={Activ} />
         <Route path="/*" component={NotFound} />
       </Switch>
