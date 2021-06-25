@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { sessionReducer } from 'redux-react-session';
 
-import checkReducer from './check/check.reducer';
+import trackReducer from './track/track.reducer';
 
 const rootReducer = combineReducers({
-  check: checkReducer,
+  track: trackReducer,
   session: sessionReducer,
 });
 
