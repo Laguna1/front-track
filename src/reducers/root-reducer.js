@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
+import { sessionReducer } from 'redux-react-session';
 
-import fooReducer from './foo/foo.reducer';
+import checkReducer from './check/check.reducer';
 
 const rootReducer = combineReducers({
-  foo: fooReducer,
+  check: checkReducer,
+  session: sessionReducer,
 });
 
 export default rootReducer;
